@@ -1,0 +1,47 @@
+
+@media only screen and (max-width:992px) {
+    .full__bg {
+        width: 100%;
+        min-height: auto;
+    }
+    .nav__link {
+        position: absolute;
+        top: 50px;
+        right: 0;
+    }
+    .nav__link ul li {
+        text-align: center;
+        padding:10px 0;
+    }
+    .nav__link ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__link ul li a {
+        display: block;
+    }
+  
+    .nav__link ul li a:hover {
+        background-color: var(--btn);
+    }
+    .save__content {
+        padding: 60px;
+    }
+    .new__group {
+        padding: 90px;
+    }
+    .animals__img__boxes .col-5 {
+        width: 50%;
+    }
+
+    .animal__box {
+        width: 100%;
+    }
+    .animals__img__boxes{
+        padding: 90px;
+    }
+    .about__full__bg {
+        padding: 60px;
+        width: 100%;
+    }
+}
